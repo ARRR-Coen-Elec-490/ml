@@ -78,6 +78,8 @@ target/
 
 # Jupyter Notebook
 .ipynb_checkpoints
+*/.ipynb_checkpoints/*
+*.ipynb_checkpoints/
 
 # IPython
 profile_default/
@@ -218,3 +220,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Data
+data/raw/
+data/processed/
+*.pkl
+*.joblib
+*.npy
+*.npz
+*.onnx
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
